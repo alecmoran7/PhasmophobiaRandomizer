@@ -17,7 +17,25 @@ ______                _                 _
 ```                                                                                                                                                                      
 Returns a random item from the game Phasmophobia (**does not include light-source items**)
 
-Current set to include items in the game up until (and including) the December 22nd, 2020 update.
+List of currently supported items:
+- "EMF Reader"
+- "Ghost Writing Book"
+- "Spirit Box"
+- "Thermometer"
+- "Video Camera"
+- "UV Flashlight"
+- "Crucifix"
+- "Glow Stick"
+- "Head Mounted Camera"
+- "Infrared Light Sensor"
+- "Lighter"
+- "Motion Sensor"
+- "Parabolic Microphone"
+- "Salt"
+- "Sanity Pills"
+- "Smudge Sticks"
+- "Sound Sensor"
+- "Tripod"
 
 ## Setup
 - Requires Python3
