@@ -15,7 +15,7 @@ ______                _                 _
 \_| \_\__,_|_| |_|\__,_|\___/|_| |_| |_|_/___\___|_|                   
                                                                        
 ```                                                                                                                                                                      
-Returns a random item from the game Phasmophobia (**does not include light-source items**)
+Returns a random item from the game Phasmophobia (**does not include light-source items**).\
 For use with the Unix Terminal Or Microsoft Windows Command Prompt.
 
 List of currently supported items:
