@@ -1,6 +1,8 @@
 import random
 import colorama
-from colorama import Fore, Back, Style
+from colorama import init, Fore, Back, Style
+# Converts ANSI to ASCII for windows cmd prompt. 
+init(convert=True)
 
 startMessage = """
   _____  _                                     _           _     _       
