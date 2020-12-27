@@ -16,6 +16,7 @@ ______                _                 _
                                                                        
 ```                                                                                                                                                                      
 Returns a random item from the game Phasmophobia (**does not include light-source items**)
+For use with the Unix Terminal Or Microsoft Windows Command Prompt.
 
 List of currently supported items:
 - "EMF Reader"
@@ -43,7 +44,8 @@ List of currently supported items:
 > python3 -m pip install colorama
 
 ## How to run
-- Start Program with:
+- Extract PhasmoPhobiaRandomizer-main.zip
+- Open Windows Command Prompt or the Linux Terminal and start the program with:
 > python3 phasmoWheel.py
 - Press *Enter* to roll an item.
 - Press *Ctrl+C* to exit the program.
