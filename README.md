@@ -14,41 +14,30 @@ ______                _                 _
 | |\ \ (_| | | | | (_| | (_) | | | | | | |/ /  __/ |                   
 \_| \_\__,_|_| |_|\__,_|\___/|_| |_| |_|_/___\___|_|                   
                                                                        
-```                                                                                                                                                                      
-Returns a random item from the game Phasmophobia (**does not include light-source items**).\
+```                                                                                                                                                               
+Application for randomizing player items, map, and light sources in the game Phasmophobia.
+Tested to work with both Windows and Linux (has not been tested on macOS yet).
+
+Windows Preview:
+![Windows Screenshot](./screenshots/windowsScreenshot.png)
+
+Linux Preview:
+![Linux Screenshot](./screenshots/linuxScreenshot.png)
+
+
 For use with the Unix Terminal Or Microsoft Windows Command Prompt.
 
-List of currently supported items:
-- "EMF Reader"
-- "Ghost Writing Book"
-- "Spirit Box"
-- "Thermometer"
-- "Video Camera"
-- "UV Flashlight"
-- "Crucifix"
-- "Glow Stick"
-- "Head Mounted Camera"
-- "Infrared Light Sensor"
-- "Lighter"
-- "Motion Sensor"
-- "Parabolic Microphone"
-- "Salt"
-- "Sanity Pills"
-- "Smudge Sticks"
-- "Sound Sensor"
-- "Tripod"
-
 ## Setup
-- Requires Python3
-- Requires colorama which can be installed via:
-> python3 -m pip install colorama
+- Requires Python 3 (any version 3.x.x will work)
+- Requires PyQt5 which can be installed by opening the Windows Command Prompt or Linux terminal and typing:
+> pip install pyqt5
 
-## How to run
+# How to run
+## Windows
 - Extract PhasmoPhobiaRandomizer-main.zip
-- Open Windows Command Prompt or the Linux Terminal and start the program with:
-> python3 phasmoWheel.py
-- Press *Enter* to roll an item.
-- Press *Ctrl+C* to exit the program.
+- Double click run.bat to start the program.
 
-It is recommended that the program is restarted between each map as each item can only be rolled once.
-Enjoy!
+## Linux
+- Extract PhasmoPhobiaRandomizer-main.zip
+- Open Linux Terminal and start the program with:
+> python3 phasmoApp.py
