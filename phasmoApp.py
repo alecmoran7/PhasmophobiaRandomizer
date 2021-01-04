@@ -8,7 +8,7 @@ import random
 
 
 
-class ExampleApp(QtWidgets.QMainWindow, appTemplate.Ui_MainWindow):
+class RandomizerApp(QtWidgets.QMainWindow, appTemplate.Ui_MainWindow):
     allLocations = ["Tanglewood Street House", "Edgefield Street House", "Ridgeview Road House", "Grafton Farmhouse", "Bleasdale Farmhouse", "Brownstone High School", "Asylum", "Prison"]
     allItems = ["EMF Reader", "Ghost Writing Book", "Spirit Box", "Thermometer", "Video Camera", "UV Flashlight", "Crucifix", "Glow Stick", "Infrared Light Sensor", "Lighter", "Motion Sensor", "Parabolic Microphone", "Salt", "Sanity Pills", "Smudge Sticks", "Sound Sensor"]
     allLightSources = ["Strong Flashlight", "Flashlight", "Candle"]
@@ -18,7 +18,7 @@ class ExampleApp(QtWidgets.QMainWindow, appTemplate.Ui_MainWindow):
     rollsLeft = 16
 
     def __init__(self, parent=None):
-        super(ExampleApp, self).__init__(parent)
+        super(RandomizerApp, self).__init__(parent)
         self.setupUi(self)
         self.rollButton.clicked.connect(self.rollHandler)                       # Button - Roll Item
         self.checkPhotoCam.stateChanged.connect(self.photocamHandler)           # Checkbox - Add Photo Cameras
@@ -166,7 +166,7 @@ class ExampleApp(QtWidgets.QMainWindow, appTemplate.Ui_MainWindow):
 
 def main():
     app = QApplication(sys.argv)
-    form = ExampleApp()
+    form = RandomizerApp()
     form.show()
     app.exec_()
 
