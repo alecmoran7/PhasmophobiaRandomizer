@@ -35,7 +35,7 @@ For use with the Unix Terminal Or Microsoft Windows Command Prompt.
 # How to run
 ## Windows
 - Extract PhasmoPhobiaRandomizer-main.zip
-- Double click run.bat to start the program.
+- Double click Run.bat to start the program.
 
 ## Linux
 - Extract PhasmoPhobiaRandomizer-main.zip
