@@ -9,7 +9,7 @@ import random
 
 
 class RandomizerApp(QtWidgets.QMainWindow, appTemplate.Ui_MainWindow):
-    allLocations = ["Tanglewood Street House", "Edgefield Street House", "Ridgeview Road House", "Grafton Farmhouse", "Bleasdale Farmhouse", "Brownstone High School", "Asylum", "Prison"]
+    allLocations = ["Tanglewood Street House", "Willow Street House", "Edgefield Street House", "Ridgeview Road House", "Grafton Farmhouse", "Bleasdale Farmhouse", "Brownstone High School", "Asylum", "Prison"]
     allItems = ["EMF Reader", "Ghost Writing Book", "Spirit Box", "Thermometer", "Video Camera", "UV Flashlight", "Crucifix", "Glow Stick", "Infrared Light Sensor", "Lighter", "Motion Sensor", "Parabolic Microphone", "Salt", "Sanity Pills", "Smudge Sticks", "Sound Sensor"]
     allLightSources = ["Strong Flashlight", "Flashlight", "Candle"]
     allItemsCopy = allItems.copy()
