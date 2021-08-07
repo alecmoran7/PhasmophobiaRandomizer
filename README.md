@@ -18,10 +18,12 @@
 Application for randomizing player items, map, and light sources in the game Phasmophobia.
 Tested to work with both Windows and Linux (has not been tested on macOS yet).
 
-Windows Preview:
+## Windows Preview:
+
 ![Windows Screenshot](./screenshots/windowsScreenshot.png)
 
-Linux Preview:
+## Linux Preview:
+
 ![Linux Screenshot](./screenshots/linuxScreenshot.png)
 
 
