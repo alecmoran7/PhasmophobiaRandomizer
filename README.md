@@ -41,7 +41,7 @@ For use with the Unix Terminal Or Microsoft Windows Command Prompt.
 
 ## Linux
 - Extract PhasmoPhobiaRandomizer-main.zip
-- Start the program by navigating to the PhasmophobiaRandomizer folder in the terminal and typing:
+- Start the program by navigating to the PhasmophobiaRandomizer-1.0x folder in the terminal and typing:
 > python3 phasmoApp.py
 
 ### Also note:
