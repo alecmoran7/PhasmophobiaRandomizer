@@ -6,10 +6,8 @@ import sys
 import appTemplate
 import random
 
-
-
 class RandomizerApp(QtWidgets.QMainWindow, appTemplate.Ui_MainWindow):
-    allLocations = ["Tanglewood Street House", "Willow Street House", "Edgefield Street House", "Ridgeview Road House", "Grafton Farmhouse", "Bleasdale Farmhouse", "Brownstone High School", "Asylum", "Prison"]
+    allLocations = ["Tanglewood Street House", "Willow Street House", "Edgefield Street House", "Ridgeview Road House", "Grafton Farmhouse", "Bleasdale Farmhouse", "Brownstone High School", "Maple Lodge Campsite", "Asylum", "Prison"]
     allItems = ["EMF Reader", "Ghost Writing Book", "Spirit Box", "Thermometer", "Video Camera", "UV Flashlight", "Crucifix", "Glow Stick", "Infrared Light Sensor", "Lighter", "Motion Sensor", "Parabolic Microphone", "Salt", "Sanity Pills", "Smudge Sticks", "Sound Sensor", "D.O.T.S. Projector"]
     allLightSources = ["Strong Flashlight", "Flashlight", "Candle"]
     allItemsCopy = allItems.copy()
@@ -84,7 +82,7 @@ class RandomizerApp(QtWidgets.QMainWindow, appTemplate.Ui_MainWindow):
             self.rollsLeft += 1
             print("Added Head-Mounted Camera")
         else:
-            if "Photo Camera" in self.allItems:
+            if "Head-Mounted Camera" in self.allItems:
                 self.allItems.remove("Head-Mounted Camera")
                 print("Removed Head-Mounted Camera")
                 self.rollsLeft -= 1                
